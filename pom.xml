@@ -16,6 +16,7 @@
         <module>jt-springcloud-provider-8001</module>
         <module>jt-springcloud-eureka-7000</module>
         <module>jt-springcloud-dashBoard-server</module>
+        <module>jt-springcloud-config</module>
     </modules>
 
     <!--导入springBoot依赖包 -->
@@ -89,14 +90,14 @@
         </dependency>
 
         <!--整合redis -->
-        <dependency>
+      <!-- <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-redis</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!--导入pojo插件 -->
         <dependency>
